@@ -985,6 +985,20 @@ On branch master
 nothing to commit, working directory clean
 ```
 
+#### Cloning a Repo with Submodules
+
+To clone a repo and check out all of its submodules then run
+
+```
+git clone --recursive <url>
+```
+
+You can specify the branch also by running
+
+```
+git clone --recursive -b <branch> <url>
+```
+
 ### Rebasing
 
 Git rebasing, it a very powerful tool. It can be be used to rewrite your
